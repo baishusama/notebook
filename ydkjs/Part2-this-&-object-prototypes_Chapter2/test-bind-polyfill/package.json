@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha",
+    "cov": "./node_modules/.bin/istanbul cover _mocha",
+    "opencovres": "open coverage/lcov-report/index.html"
   },
   "author": "baishusama <baishusama@outlook.com> (http://baishusama.github.io/)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0",
+    "should": "^11.2.1"
+  }
 }

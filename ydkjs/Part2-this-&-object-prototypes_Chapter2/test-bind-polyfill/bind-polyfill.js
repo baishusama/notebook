@@ -27,4 +27,4 @@
 
 var bindFunc = function(){};
 
-export.bindFunc = bindFunc;
+exports.bindFunc = bindFunc;
